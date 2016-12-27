@@ -4,7 +4,7 @@ import UIKit
 
 class Person {
     
-    var workingOnMachine: Machine?
+    weak var workingOnMachine: Machine?
     
     init() {
         NSLog("Person.init()")
