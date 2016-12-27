@@ -18,6 +18,7 @@ class Machine {
     }
     
     lazy var externalName: () -> String = {
+        [unowned self] in   
         
         return self.internalName
     }
